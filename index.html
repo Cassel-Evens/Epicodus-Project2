@@ -7,41 +7,81 @@
   <script src="js/scripts.js"></script>
   <title>Language Suggester</title>
 </head>
+<body>
   <div class="header">
     <h1>Welcome to Language Suggester</h1>
     <p>Here we will try and hopefully find the best
       language for you!
     </p>
   </div>
-
-  <div class="animals">
-    <select class="form-control" id="animal">
-      <option value="1">Snakes</option>
-      <option value="2">Bunnies</option>
-      <option value="3">Crocodiles</option>
-    </select>
-  </div>
-  <div class="pet">
-    <div>
-      <form id="survey">
-        <div class="form-group">
-          <label for="pets">How many animals is considered to
-            Much?</label>
-          <input id="pets" class="form-control" type="text">
-        </div>
-      </form>           
+  <div class="survey-questions">
+    <div class="drop-downs">
+      <p>
+        <span class="pets-title">
+          Select an animal:
+        </span>
+      </p>
+      <select class="form-control" id="animal">
+        <option value="1">Snakes</option>
+        <option value="2">Bunnies</option>
+        <option value="3">Crocodiles</option>
+      </select>
     </div>
-  <div class="front-back">
-    <div>
-      <form id="survey">
-        <div class="form-group">
-          <label for="end">Are you interested in front-end or back-end 
-            Web Developing?
+    
+    <div class="drop-downs">
+      <p>
+        <span class="pets-title">Select a color:</span>
+      </p>
+      <select class="form-control" id="logo">
+        <option value="1">Red</option>
+        <option value="2">Yellow</option>
+        <option value="3">Purple</option>
+      </select>
+    </div>
+    
+    <div class="pet">
+      <div>
+        <form id="survey">
+          <div class="form-group">
+            <label for="pets">
+              <span class="pets-title"> 
+              How many animals is considered to much?
+            </span>
           </label>
-          <input id="end" class="form-control" type="text">
-        </div>
-      </form>
+            <input id="pets" class="form-control" type="text">
+          </div>
+        </form>           
+      </div>
+    
     </div>
+    <div class="container">
+      <p>Are you interested in Front-end or Back-end developing?</p>
+      <div class="radio">
+        <label>
+          <input type="radio" name="web" value="front-end" checked>
+          Front-end
+        </label>
+      </div>
+      <div class="radio">
+        <label>
+          <input type="radio" name="web" value="back-end">
+          Back-end
+        </label>
+      </div>
+      <p>Startup or Corporate?</p>
+      <div class="radio">
+        <label>
+          <input type="radio" name="startup" value="Startup" checked>
+          Startup
+        </label>
+      </div>
+      <div class="radio">
+        <label>
+          <input type="radio" name="startup" value="Corporate">
+          Corporate
+        </label>
+      </div>
+    </div>
+    <button type="submit" class="btn">Submit.</button>
   </div>
-  </div>
-
+</body>

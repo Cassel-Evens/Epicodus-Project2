@@ -1,3 +1,6 @@
+body {
+  background-color: rgb(253, 231, 235);
+}
 .header {
   border: 0px;
   background-color: rgb(205, 252, 252);
@@ -6,16 +9,36 @@
   text-align: center;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-.animals {
+.drop-downs {
   border: 5px;
   width: 40%;
   margin: auto;
   margin-top: 20px;
   margin-bottom: 20px;
+  text-align: center;
+}
+.pets-title {
+  font-weight: bold;
 }
 .pet {
   text-align: center;
   border: 5px;
   width: 50%;
   margin: auto;
+}
+.container {
+  width: 50%;
+  padding: 5px;
+  border: 0px;
+  margin: auto;
+  text-align: center;
+}
+.container p {
+  font-weight: bold;
+}
+.btn {
+  border: 2px solid black;
+  padding: 2px;
+  float: right;
+  margin-right: 20px;
 }
