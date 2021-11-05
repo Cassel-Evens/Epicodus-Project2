@@ -1,0 +1,21 @@
+.header {
+  border: 0px;
+  background-color: rgb(205, 252, 252);
+  padding: 5px;
+  margin: auto;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.animals {
+  border: 5px;
+  width: 40%;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.pet {
+  text-align: center;
+  border: 5px;
+  width: 50%;
+  margin: auto;
+}
