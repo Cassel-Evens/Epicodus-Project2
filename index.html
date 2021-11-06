@@ -14,45 +14,36 @@
       language for you!
     </p>
   </div>
-  <div class="survey-questions">
-    <div class="drop-downs">
-      <p>
-        <span class="pets-title">
-          Select an animal:
-        </span>
-      </p>
-      <select class="form-control" id="animal">
-        <option value="1">Snakes</option>
-        <option value="2">Bunnies</option>
-        <option value="3">Crocodiles</option>
-      </select>
-    </div>
-    
-    <div class="drop-downs">
-      <p>
-        <span class="pets-title">Select a color:</span>
-      </p>
-      <select class="form-control" id="logo">
-        <option value="1">Red</option>
-        <option value="2">Yellow</option>
-        <option value="3">Purple</option>
-      </select>
-    </div>
-    
+  <div id="survey-questions">
     <div class="pet">
       <div>
         <form id="survey">
           <div class="form-group">
             <label for="pets">
-              <span class="pets-title"> 
+              <span id="pets-title"> 
               How many animals is considered to much?
-            </span>
-          </label>
+              </span>
+            </label>
             <input id="pets" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="colors">
+              <span id="pets-title">
+                Type in one of these colors: Red, Yellow, Purple.
+              </span>
+            </label>
+            <input id="colors" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="animals">
+              <span id="pets-title">
+                Type in one of these animals: Bunny, Crocodile, Snake.
+              </span>
+            </label>
+            <input id="animals" class="form-control" type="text">
           </div>
         </form>           
       </div>
-    
     </div>
     <div class="container">
       <p>Are you interested in Front-end or Back-end developing?</p>
@@ -83,5 +74,11 @@
       </div>
     </div>
     <button type="submit" class="btn">Submit.</button>
+  </div>
+  <div id="language">
+    <h2>Your Language(s):</h2>
+    <h3>Ruby Rails</h3>
+    <h3>Javascript</h3>
+    <h3>C#</h3>
   </div>
 </body>
