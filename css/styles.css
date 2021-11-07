@@ -1,9 +1,9 @@
 body {
-  background-color: rgb(253, 231, 235);
+  background-color: rgb(253, 251, 239);
 }
 .header {
   border: 0px;
-  background-color: rgb(205, 252, 252);
+  background-color: rgb(156, 154, 154);
   padding: 5px;
   margin: auto;
   margin-bottom: 20px;
@@ -44,7 +44,7 @@ body {
 }
 #language {
   width: 100%;
-  background-color: rgb(205, 252, 252);
+  background-color: rgb(156, 154, 154);
   border: 0px;
   padding: 5px;
   margin: auto;
@@ -54,16 +54,17 @@ body {
   text-align: center;
 }
 #Java h3 {
-  border: 3px solid black;
+  border: 0px;
   padding: 5px;
   width: 33%;
   text-align: center;
-  margin: auto;
   margin-bottom: 30px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 56px;
 }
 #Java img {
   width: 33%;
+  border: 5px solid black;
   height: auto;
   margin: auto;
   margin-left: 20px;
@@ -77,5 +78,33 @@ body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 #Java-info h5 {
+  text-decoration: underline;
+}
+#ruby h3 {
+  border: 0px;
+  padding: 5px;
+  width: 33%;
+  text-align: center;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 56px;
+}
+#ruby img {
+  width: 33%;
+  border: 5px solid black;
+  height: auto;
+  margin: auto;
+  margin-left: 20px;
+}
+#ruby-info {
+  border: 2px solid black;
+  padding: 5px;
+  margin-right: 10px;
+  float: right;
+  width: 60%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#ruby-info h5 {
   text-decoration: underline;
 }
