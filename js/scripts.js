@@ -1,18 +1,16 @@
 $(document).ready(function() {
-  $("#formOne").submit(function() {
-    event.preventDefault();
-    const pets = $("input#pets").val();
-    const colors = $("input#colors").val();
-    const animals = $("input#animals").val();
-    const developing = $("input#developing").val();
-    const workType = $("input#work-type").val();
+  $("form#questions").submit(function(event) {
+    const age = parseInt($("input#number").val());
+    const name = $("input#name").val();
+    const animal = $("select#animals").val();
+    const animal = $("select#Colors").val();
 
-    $(".pets").text(petsInput);
-    $(".colors").text(colorsInput);
-    $(".animals").text(animalsInput);
-    $(".developing").text(developingInput);
-    $(".work-type").text(work-typeInput);
     
-    $("#language").show();
+
+
+      // $("#rate").text(quote);
+      // $("#quote").show();
+
+    event.preventDefault();
   });
 });

@@ -15,54 +15,72 @@
     </p>
   </div>
   <div id="surveys">
-    <div>
+    <form id="questions">
       <form id="survey">
         <div class="form-group">
-          <label for="pets">
+          <label for=name>
             <span id="pets-title">
-              How many animals is considered to much?
+              What is your name?
             </span>
           </label>
-          <input id="pets" class="form-control" type="text" required>
+          <input id= "name" class="form-control" type="text" required>
         </div>
+      </form>          
+      <div class="drop-downs">
+        <label for="animals">Select an animal:</label>
+        <select class="form-control" id="animals">
+          <option>Snake</option>
+          <option>Bunnies</option>
+          <option>Zebra</option>
+        </select>
+      </div>
+      <div class="drop-downs">
+        <label for="Colors">Select a color:</label>
+        <select class="form-control" id="Colors">
+          <option>Red</option>
+          <option>Blue</option>
+          <option>Green</option>
+        </select>
+      </div>
+      <div class="drop-downs">
+        <label>
+          <span id="pets-title">
+            What is your favorite season?
+          </span>
+        </label>
+        <div class="radio">
+          <label>
+            <input type="radio" name="seasons" value="fall" checked>
+            Fall 
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="seasons" value="winter">
+            Winter
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="seasons" value="summer">
+            Summer
+          </label>
+        </div>
+      </div>
+      <form id="survey">
         <div class="form-group">
-          <label for="colors">
+          <label for="number">
             <span id="pets-title">
-              Type in one of these colors: Red, Yellow, Purple.
+              Favorite Number?
             </span>
           </label>
-          <input id="colors" class="form-control" type="text" required>
+          <input id= "number" class="form-control" type="text" required>
         </div>
-        <div class="form-group">
-          <label for="animals">
-            <span id="pets-title">
-              Type in one of these animals: Bunny, Crocodile, Snake.
-            </span>
-          </label>
-          <input id="animals" class="form-control" type="text" required>
-        </div>
-        <div class="form-group">
-          <label for="developing">
-            <span id="pets-title">
-              Are you curiuos in front-end or back-end developing 
-              (please type 'front-end' or 'back-end'): 
-            </span>
-          </label>
-          <input id="developing" class="form-control" type="text" required>
-        </div>
-        <div class="form-group">
-          <label for="work-type">
-            <span id="pets-title">
-              Are you more interested in a Startup or a Corporate culture?
-              (please type 'Startup' or 'Corporate'):
-            </span>
-          </label>
-          <input id="work-type" class="form-control" type="text" required>
-        </div>
-      </form> 
-      <button type="submit" class="btn">Submit.</button>          
-    </div>
+      </form>
+    </form>          
+    <button type="submit" class="btn">Submit.</button> 
   </div>
+
   <div id="language">
     <h2>Your language</h2>
     <p>Congratulations! We believe this will be the best language for you to learn
@@ -94,6 +112,7 @@
         </ul>
     </div>
   </div>
+
   <div id="ruby">
     <h3>Ruby Rails</h3>
     <img src="img/RubyRails.png">
@@ -115,6 +134,7 @@
         </ul>
     </div>
   </div>
+
   <div id="python">
     <h3>Python</h3>
     <img src="img/python.png">
